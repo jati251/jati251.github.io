@@ -18,5 +18,12 @@ body {
 }
 
 #audio{
-    display: none;
+    padding-top: 100px;
+    inline-size: 20vh;
+}
+
+#myButton{
+background-color: rgb(120, 187, 144);
+border-color: rgb(31, 58, 43);
+color: rgb(17, 67, 37);
 }

@@ -10,4 +10,10 @@ document.getElementById('myButton').onclick = function () {
   pageName.innerHTML = `Haloo ${nama} !`;
 };
 
+document.getElementById('button-back').onclick = function (){
+  document.getElementById('introcon').style.display = 'inline';
+  intro1.style.display= 'none'
+}
+
+
 
