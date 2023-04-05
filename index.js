@@ -1,13 +1,5 @@
-let nama = document.getElementById("fname").value
-
-if(Number(nama)){
-    document.getElementById("lname").value===23
-}
-
-function validateForm() {
-  let x = document.forms["myForm"]["fname"].value;
-  if (x == "") {
-    alert("Name must be filled out");
-    return false;
-  }
+document.getElementById('myButton').onclick= function(){
+  var namaDepan=document.getElementById('fname').value;
+  var namaBelakang=document.getElementById('lname').value;
+  location.href = "www.youtube.com";
 }
