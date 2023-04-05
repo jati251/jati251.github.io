@@ -32,6 +32,8 @@ color: rgb(17, 67, 37);
 }
 
 #audio{
+    position: relative;
+    top: 24vh;
     height:3vh;
     width: 20vh;
 }

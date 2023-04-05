@@ -24,6 +24,18 @@
         <source src="audio.mp3" type="audio/mpeg" preload="auto">
     </audio>
 
+    <script>
+        document.getElementById('myButton').onclick = () => {
+            const nama = document.getElementById('myText');
+            if (nama.value === '' || !nama.value) {
+                kosong.style.display = 'inline';
+            } else {
+                nameValue=nama.value
+                localStorage.setItem("nama", nameValue);
+                location.href = "./homepage.html";
+            }
+        };
+    </script>
     <script type="module" src="index.js"></script>
 </body>
 

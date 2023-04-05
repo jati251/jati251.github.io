@@ -22,7 +22,20 @@
     <audio id='audio' controls autoplay loop>
         <source src="audio.mp3" type="audio/mpeg" preload="auto">
     </audio>
+    <script>
+        let name = localStorage.getItem('nama')
+        let pageName = document.getElementById('page-name')
+        pageName.innerHTML = `Haloo ${name} !`
 
+        document.getElementById('button1').onclick = function () {
+
+        }
+
+        document.getElementById('button-back').onclick = function () {
+            location.href = "index.html";
+        };
+
+    </script>
     <script type="module" src="homepage.js"></script>
 </body>
 
