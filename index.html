@@ -9,8 +9,7 @@
 </head>
 
 <body>
-
-    <div class='intro' id="introcon">
+    <div class='container' id="home">
         <h2>Ayo bermain bersama</h2>
         <h1>Masbro.</h1>
         <p>Si capybara yang selalu ceria!</p>
@@ -19,23 +18,13 @@
             <input type="text" id="myText"><br>
             <button type="button" id="myButton">Mulai bermain</button>
         </form>
-    </div>
-    <div class='game1' id="intro1" style="display: none;">
-        <img src="kapibaraku.png">
-        <h2 id="page-name"></h2>
-        <form>
-        <button type="button" id="button1">Lanjutkan</button>
-        </form>
-        <form>
-            <button type="button" id="button-back">Kembali</button>
-        </form>
+        <p id='kosong' style="display: none;">Nama harus diisi!</p>
     </div>
     <audio id='audio' controls autoplay loop>
         <source src="audio.mp3" type="audio/mpeg" preload="auto">
     </audio>
 
-    <script src="index.js">
-    </script>
+    <script type="module" src="index.js"></script>
 </body>
 
 </html>

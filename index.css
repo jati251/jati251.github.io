@@ -3,27 +3,35 @@ body {
     background-color: lightblue
 }
 
-.intro {
-    height: 50vh;
+.container {
+    height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    
   }
 
-.game1{
-    height: 50vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
 
-#audio{
-    padding-top: 100px;
-    inline-size: 20vh;
+#button1{
+    margin-bottom: 2%;
 }
-
 #myButton{
 background-color: rgb(120, 187, 144);
 border-color: rgb(31, 58, 43);
 color: rgb(17, 67, 37);
+}
+
+#kosong{
+    color: red;
+}
+#kap{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+#audio{
+    height:3vh;
+    width: 20vh;
 }
