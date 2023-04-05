@@ -9,17 +9,24 @@
 </head>
 
 <body>
-    <audio controls autoplay loop >
+    <audio controls autoplay loop>
         <source src="audio.mp3" type="audio/mpeg" preload="auto">
     </audio>
-    <div class='container'>
+    <div class='intro' id="introcon">
         <h2>Ayo bermain bersama</h2>
         <h1>Masbro.</h1>
         <p>Si capybara yang selalu ceria!</p>
         <form>
-            <label for="fname">Masukan nama kamu</label><br>
+            <label for="myText">Masukan nama kamu</label><br>
             <input type="text" id="myText"><br>
             <button type="button" id="myButton">Mulai bermain</button>
+        </form>
+    </div>
+    <div class='game1' id="intro1" style="display: none;">
+        <img src="kapibaraku.png">
+        <h2 id="page-name"></h2>
+        <form>
+        <button type="button" id="button1">Lanjutkan</button>
         </form>
     </div>
 

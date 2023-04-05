@@ -3,9 +3,16 @@ body {
     background-color: lightblue
 }
 
-.container {
+.intro {
     height: 50vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
+
+.game1{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
