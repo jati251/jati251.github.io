@@ -1,0 +1,18 @@
+body {
+    background-color: #e0f2fe;
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    background-image: url("tes.png")
+  }
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+  }
+
+#pertama {
+  color:red;
+}
